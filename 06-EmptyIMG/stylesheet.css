@@ -1,0 +1,633 @@
+body,html {
+	width:100%;
+	height:100%;
+	font-family: 'Nunito san', sans-serif;
+}
+
+/*Noi dung index.html*/
+	/*Gioi thieu*/
+.block-title.text-xs-center {
+    background: url(img/light.png) no-repeat center bottom;
+    padding-bottom: 33px;
+    margin-bottom: 46px;
+} 
+h1.title.text-xs-center {
+	text-transform: uppercase;
+	margin: 100px 0 20px 0;
+}
+
+.slide-news h1.title.text-xs-center {
+    color: wheat;
+}
+	/*Het gioi thieu*/
+	.container.block-intro {
+		padding-bottom: 46px;
+	}
+
+
+
+/*News*/
+.duongdan a {
+    color: #a1b1bc;
+    font-size: 14px;
+}
+
+.duongdan .active {
+    color: #a1b1bc;
+    font-size: 14px;
+}
+
+ol.breadcrumb.duongdan {
+    padding: 0;
+    margin: 0;
+    background: none;
+    line-height: 41px;
+}
+
+.title-news h3.tt {
+    font-size: 30px;
+    color: #2c3e50;
+}
+
+.title-news {
+    line-height: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.content-news {
+	border-top: 1px solid #ecf0f1;
+	background: #f9fafb;
+	padding-top: 100px;
+}
+*{margin: 0; padding: 0;}
+
+p.thongtinbv {
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 15px;
+    margin-bottom: 11px;
+}
+
+p.card-text, p.thongtinbv {
+    color: #a1b1bc;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h4.card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-columns .card {
+    padding: 20px;
+}
+/*Het news*/
+
+/*Hieu ung Slide */
+.cot1_5 a {
+    color: wheat;
+}
+
+.slide-news span.title-half {
+    color: wheat;
+}
+
+a.left.carousel-control, a.right.carousel-control {
+    opacity: 0;
+    width: 55px;
+    /* font-size: 22px; */
+}
+
+a.left.carousel-control:hover, a.right.carousel-control:hover {
+    opacity: 1;
+    background: none;
+    /* font-size: 31px; */
+}
+
+.cot1_5 .danhmuc {
+    margin-bottom: 4px;
+}
+
+.cot1_5 h3 a {
+    font-size: 24px;
+    color: goldenrod;
+}
+
+.cot1_5 p {
+    font-size: 15px;
+    color: white;
+}
+
+.cot1_5 {
+    width: 281px;
+    padding-right: -5px;
+    margin-right: 21px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.cot1_5 img {
+    width: 261px;
+    margin-bottom: 18px;
+}
+
+.motslide {
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+ol.carousel-indicators {
+    margin-bottom: -55px;
+}
+
+div#slidetin {
+    /* width: 100%; */
+    /* height: 500px; */
+    /* float: left; */
+    position: relative;
+}
+
+.slide-news {
+    width: 100%;
+    height: 721px;
+    overflow: hidden;
+    background: #1a1c27;
+}
+/*Het hieu ung slide*/
+/*Het noi dung index*/
+/*Hieu ung load*/
+@keyframes hienra {
+	from {
+		opacity: 0; transform: translateX(-200px);
+	}
+	to {opacity: 1; transform: translateX(0px)}
+}
+
+@keyframes hienxuong {
+	from {
+		opacity: 0; transform: translateY(-200px);
+	}
+	to {opacity: 1; transform: translateY(0px);}
+}
+
+@keyframes xuathien {
+	from {
+		opacity: 0; transform: scale(1);
+	}
+	to {opacity: 1; transform: scale(0);}
+}
+
+
+/*Het hieu ung load*/
+
+/*footer*/
+.row.one-news {
+    border-bottom: 1px solid #243240;
+    padding-top: 14px;
+    /* margin: 0; */
+}
+
+.row.one-news:last-child {
+    border: none;
+}
+
+.row.one-news:hover a.txt-news {
+    color: white;
+}
+
+.row.one-news:hover .pic-news:after {
+	opacity: 1;
+	transform: scale(1);
+}
+
+span.date-time {
+    color: #a1b1bc;
+    font-weight: bold;
+}
+
+.pic-news img {
+    width: 50px;
+    height: 50px;
+}
+
+a.txt-news {
+    color: #a1b1bc;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 3px;
+    display: block;
+}
+
+.text-news img {
+    height: 50px;
+    width: 50px;
+}
+
+.one-news p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.see-more i.fa.fa-angle-right {
+    background: #1abc9c;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+a.see-more {
+    color: #1abc9c;
+    /* font-size: 17px; */
+}
+
+a.see-more:hover {
+    text-decoration: none;
+    color: white;
+} 
+
+footer {
+	background: #1a1c27;
+	padding-top: 82px;
+	color: #758590;
+	font-size: 14px;
+	font-family: 'Nunito san', sans-serif;
+	margin-right: 5px;
+} 
+
+button.form-control.but1 {
+    width: 20%;
+    float: left;
+    border-radius: 0px;
+    background: #1abc9c;
+    color: white;
+    border: 1px solid #243240;
+    cursor: pointer;
+    /* transition: 0.4s; */
+    transform: translateX(0px);
+    border-left: 0px;
+}
+
+input.form-control.email {
+    border-radius: 0px;
+    background: #222533;
+    border: 1px solid #243240;
+    width: 80%;
+    float: left;
+}
+
+.cot3-4 .down ul {
+	list-style: none;
+}
+
+.cot3-4 .down li .fa {
+    font-size: 10px;
+	color: #27b899;
+	transition: 0.4s;
+}
+
+.cot3-4 .down li a {color: #a1b1bc;font-size: 14px;display: inline-block;padding-left: 11px; transition: 0.4s;}
+
+.cot3-4 .down ul li {
+    /* line-height: 20px; */
+    border-bottom: 1px solid #a1b1bc;
+	padding: 16px 0;
+}
+
+.cot3-4 .down ul li:hover i.fa {
+    color: white;
+}
+
+.cot3-4 .down ul li:hover a {
+    color: green;
+    text-decoration: none;
+}
+
+.cot3-4 {}
+
+.cot3-4 .up a {
+    color: white;
+    font-size: 16px;
+    border: 1px solid;
+    padding: 8px 7px;
+    margin-top: 15px;
+    /* margin: 15px; */
+	display: inline-block;
+	transition: 0.4s;
+}
+
+.cot3-4 .up a:hover {
+    background: #27b899;
+    border-color: #27b899;
+    text-decoration: none;
+}
+
+.pic-news {
+    position: relative;
+}
+
+.pic-news:after {
+    width: 50px;
+    height: 50px;
+    background: #27b899;
+    content: "+";
+    display: inline-block;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s;
+    transform: scale(2);
+}
+
+.down .title-lastnews {
+    margin-top: 99px;
+}
+
+h3.title-lastnews {
+	margin-top: 41px;
+	color: white;
+}
+
+.email::-webkit-input-placeholder {
+	color: #a1b1bc;
+	font-size: 15px;
+}
+
+/*Het top footer*/
+/*bottom footer*/
+
+.bot-footer .col-sm-7 a {
+    color: #1abc9c;
+}
+
+.social-connect a {
+    color: #a1b1bc;
+    padding: 0px 11px;
+    /* transition: 0.4s; */
+    /* transform: translateY(0px); */
+}
+
+.social-connect a:hover {
+    color: white;
+    /* transition: 0.4s; */
+    /* transform: translateY(10px); */
+}
+
+.bot-footer {
+    background: black;
+    color: #a1b1bc;
+    padding: 33px;
+    font-size: 14px;
+}
+
+
+/*Het footer*/
+
+/*===================INDEX=================*/
+.top {
+	background:url("img/01.jpg") ;
+	background-size: cover; 
+	width:100%;
+	height:100%; 
+	color:white;
+
+	display: table; 
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+.top .noidung {	 
+	vertical-align: middle;
+	display: table-cell;
+}
+.top .noidung .chunho {
+	font-size: 16px;	
+}
+.top .noidung .to {
+	font-size: 54px; 
+	font-weight: 800; 
+	margin: 0; padding: 0;
+}
+.top .nuttop {
+	font-weight: 300;
+	font-size: 18px;
+	padding: 16px 45px;
+	border:1px solid white;
+	border-radius: 2px;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+.top .nuttop:hover {
+	background:none;
+}
+/*========================CONTACT======================*/
+
+/* css cho menu */
+.menuphai li.nav-item a.nav-link {
+	font-family:'Nunito Sans', sans-serif;
+	color: #a1b1bc;
+	font-size: 16px;
+	padding: 42px 24px;
+}
+.menuphai li.nav-item a.nav-link:hover {
+	color: #1abc9c;
+	/* background: #80808017; */
+}
+
+.menuphai li.nav-item.active a.nav-link {
+	color: #1abc9c;
+}
+
+.menutren{
+	animation: hienxuong 1s forwards ; /*forw la dung yen */
+
+}
+/*Het menu*/
+
+/*ttlienhe*/
+.ttlienhe {
+	background: url(img/01.jpg);
+	background-size: cover;
+	height: 640px;
+	opacity: 0;
+	animation: hienra 1s forwards ; /*forw la dung yen */
+	animation-delay: 0.4s;
+
+
+}
+
+.ttlienhe .thongtin{
+	margin-top: 190px;
+	background-color: #435566;
+	border-left: 3px solid #16caaa; 
+	color: white;
+	padding: 33px 40px;
+	opacity: 0;
+	font-family:'Nunito Sans', sans-serif;
+	animation: hienra 1s forwards ; /*forw la dung yen */
+	animation-delay: 1s;
+}
+
+.thongtin h1 {
+	font-weight: 600;
+	margin-bottom: 23px;
+}
+
+.thongtin .col-sm-6{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.thongtin ul {
+	list-style: none;
+}
+
+.thongtin i {
+	padding-right: 9px;
+	font-size: 12px;
+}
+
+.thongtin .email {
+	color: #14dbc4;
+}
+/*Het ttlien*/
+
+/*Form liÃªn há»‡*/
+.formlienhe {
+	margin-top: 95px;
+}
+
+.formlienhe .otext {
+	background: #f5f6f8;
+	font-weight: bold;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 14px;
+	padding: 15px;
+}
+
+.formlienhe .otext::-webkit-input-placeholder {
+	color: #2c3e50;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.formlienhe .nutgui {
+	background-color: #1abc9c;
+	color: white;
+	padding: 10px 30px;
+	display: inline;
+	width: auto;
+	text-transform: uppercase;
+	cursor: pointer;
+	border-radius: 0px;
+} 
+
+.formlienhe .c-select {
+	padding: 3px;
+}
+/*Het form liÃªn há»‡*/
+
+/*Di dong*/
+
+@media (max-width: 768px) {
+	* {}
+
+.thongtin .col-sm-6 {
+    font-size: 9px;
+}
+
+.menuphai li.nav-item a.nav-link {
+    font-size: 18px;
+    padding: 23px 19px;
+}
+
+.ttlienhe .thongtin{
+	margin-top: 103px;
+
+}
+.thongtin h1 {
+    font-size: 21px;
+}
+}
+
+@media(max-width: 576px) {
+	*{}
+	/*Slide*/
+	.cot1_5 {
+		text-align: center;
+		/* padding-left: 11px; */
+		margin-left: 29px;
+		font-size: 18px;
+	}
+	/*Het slide*/
+	.col-sm-7.text-sm-left.text-xs-center {
+		padding-bottom: 17px;
+	}
+	.top {
+		background: url(img/02.jpg);
+	}
+
+	.top .nuttop {
+		font-size: 15px;
+		padding: 9px 28px;
+		margin-top: 20px;
+	}
+
+	.top .noidung .chunho {
+		font-size: 12px;
+	}
+
+	.top .noidung .to {
+		font-size: 31px;
+	}
+
+/*Menu*/
+	.menuphai li.nav-item a.nav-link {
+		font-family:'Nunito Sans', sans-serif;
+		color: #a1b1bc;
+		font-size: 19px;
+		padding: 16px 24px;
+		border-bottom: 1px dashed gray;
+		text-transform: uppercase;
+	}
+	.menuphai li.nav-item a.nav-link:hover {
+		color: #1abc9c;
+		background: #80808024;
+	}
+	
+	.menuphai li.nav-item.active a.nav-link {
+		color: #1abc9c;
+	}
+
+	.navbar-brand {
+		text-align: center;
+	}
+
+	.navbar-brand img{
+		height: 74px;
+		margin-top: -10px
+	}
+
+	/*Thong tin lien he*/
+	.ttlienhe .thongtin{
+		margin-top: 103px;
+	
+	}
+
+.thongtin h1 {
+    font-size: 22px;
+}
+
+
+}   
