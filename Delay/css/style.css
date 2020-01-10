@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.khoi {
+    width: 480px;
+    height: 360px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+img.layer1 {
+    transform: 0.4s;
+    padding: 10px;
+}
+
+.khoi:hover .layer1 {
+    transform: scale(1.2);
+}
+
+.den {
+    width: 480px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    background: #000000;
+    opacity: 0;
+}
+
+.chu1, .chu2, .chu3 {
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 40px;
+    color: black;
+    background: white;
+    padding: 7px 19px;
+    transition: 0.5s;
+    transform: translateX(-400px);
+}
+
+.khoi .chu3{
+    top: 180px;
+    transition-delay: 0.2s;
+}
+
+.khoi .chu2{
+    top: 120px;
+    transition-delay: 0.1s;
+}
+
+.khoi:hover .chu1 {
+    transform: translateX(0px); 
+}
+
+.khoi:hover .chu2 {
+    transform: translateX(0px); 
+}
+
+.khoi:hover .chu3 {
+    transform: translateX(0px); 
+}
+
+
+
+

@@ -1,0 +1,5 @@
+﻿Căn giữa chữ trên hình
++ trên dưới: div cha: display: table
+		div con: display: table-cell
+			vertical-align: middle
++ Chiều ngang: text-align: center
